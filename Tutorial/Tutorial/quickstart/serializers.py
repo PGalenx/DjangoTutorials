@@ -10,3 +10,5 @@ class Groupserializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Group
         fields = ['url','name']        
+
+#python is case sensitive 
